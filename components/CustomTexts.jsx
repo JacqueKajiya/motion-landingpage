@@ -10,7 +10,7 @@ export const TypingText = ({ title, textStyles }) => (
   >
     {Array.from(title).map((Letter, index) => (
       <motion.span variants={textVariant2} key={index}>
-        {Letter === ' ' ? '/u00A0' : Letter}
+        {Letter === '  ' ? '/u00A0' : Letter}
       </motion.span>
     ))}
   </motion.p>
